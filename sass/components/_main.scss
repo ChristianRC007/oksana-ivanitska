@@ -1,0 +1,25 @@
+.main {
+  position: relative;
+
+  height: 100vh;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(220, 144, 0, 0.5) 0%,
+    rgba(255, 165, 0, 0.2) 100%
+  );
+
+  &__background {
+    height: 100vh;
+    background-image: url(../images/tree.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: right -310px top -35px;
+  }
+
+  &__wrapper {
+    max-width: 800px;
+    margin-left: 50px;
+    padding: 60px 50px;
+  }
+}

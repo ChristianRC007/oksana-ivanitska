@@ -1,0 +1,27 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 30%;
+  height: 100vh;
+
+  background: linear-gradient(
+    to top,
+    rgba(222, 225, 227, 1) 0%,
+    rgba(106, 126, 144, 1) 100%
+  );
+
+  &__background {
+    height: 100vh;
+    border-right: 12px double black;
+    background-image: url(../images/twig.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: right -220px top 125px;
+  }
+
+  &__wrapper {
+    padding: 60px 60px 60px 50px;
+  }
+}
