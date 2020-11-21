@@ -49,6 +49,39 @@ body {
   padding: 60px 60px 60px 50px;
 }
 
+.sidebar .author {
+  font-family: 'Helvetica Nue';
+  font-size: 17px;
+}
+
+.sidebar .author__name {
+  font-weight: 700;
+  font-size: 20px;
+  color: #e7e7e7;
+  text-transform: uppercase;
+}
+
+.sidebar .author__name > span {
+  font-weight: 300;
+}
+
+.sidebar .author__contacts {
+  display: block;
+  max-width: 185px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.15;
+  text-decoration: none;
+  color: #e7e7e7;
+  -webkit-transition: color 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
+}
+
+.sidebar .author__contacts:hover {
+  color: rgba(220, 144, 0, 0.5);
+}
+
 .main {
   position: relative;
   height: 100vh;
@@ -68,5 +101,28 @@ body {
   max-width: 800px;
   margin-left: 50px;
   padding: 60px 50px;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social__link {
+  padding: 5px;
+}
+
+.social__link:hover .social__icon {
+  fill: rgba(220, 144, 0, 0.5);
+}
+
+.social__icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  fill: #e7e7e7;
+  -webkit-transition: fill 200ms ease-in-out;
+  transition: fill 200ms ease-in-out;
 }
 /*# sourceMappingURL=main.css.map */

@@ -24,4 +24,37 @@
   &__wrapper {
     padding: 60px 60px 60px 50px;
   }
+
+  .author {
+    font-family: 'Helvetica Nue';
+    font-size: 17px;
+
+    &__name {
+      font-weight: 700;
+      font-size: 20px;
+      color: rgb(231, 231, 231);
+      text-transform: uppercase;
+
+      & > span {
+        font-weight: 300;
+      }
+    }
+    &__contacts {
+      display: block;
+
+      max-width: 185px;
+      margin-bottom: 10px;
+
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 1.15;
+      text-decoration: none;
+      color: rgb(231, 231, 231);
+      transition: color 200ms ease-in-out;
+
+      &:hover {
+        color: rgba(220, 144, 0, 0.5);
+      }
+    }
+  }
 }

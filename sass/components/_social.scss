@@ -1,0 +1,21 @@
+.social {
+  display: flex;
+
+  &__link {
+    padding: 5px;
+
+    &:hover .social__icon {
+      fill: rgba(220, 144, 0, 0.5);
+    }
+  }
+
+  &__icon {
+    width: 35px;
+    height: 35px;
+
+    margin-right: 10px;
+
+    fill: rgb(231, 231, 231);
+    transition: fill 200ms ease-in-out;
+  }
+}
