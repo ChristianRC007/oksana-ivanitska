@@ -1,0 +1,47 @@
+.header {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+
+    margin-top: 20px;
+    padding: 40px 85px;
+
+    border: 10px solid #005f7a;
+
+    & > img {
+      display: block;
+
+      width: 280px;
+      height: auto;
+
+      border-radius: 50%;
+    }
+  }
+
+  &__info {
+    margin-left: 90px;
+  }
+
+  &__name {
+    margin: 0;
+
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    color: #005f7a;
+  }
+
+  &__position {
+    margin-top: 40px;
+    margin-bottom: 0;
+
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: 0.2em;
+    color: #464646;
+  }
+}

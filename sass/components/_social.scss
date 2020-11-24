@@ -4,8 +4,10 @@
   &__link {
     padding: 5px;
 
+    text-decoration: none;
+
     &:hover .social__icon {
-      fill: rgba(220, 144, 0, 0.5);
+      fill: #dfd9a4;
     }
   }
 
