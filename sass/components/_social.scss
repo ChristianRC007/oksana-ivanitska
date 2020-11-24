@@ -2,6 +2,7 @@
   display: flex;
 
   &__link {
+    margin-right: 10px;
     padding: 5px;
 
     text-decoration: none;
@@ -14,8 +15,6 @@
   &__icon {
     width: 35px;
     height: 35px;
-
-    margin-right: 10px;
 
     fill: rgb(231, 231, 231);
     transition: fill 200ms ease-in-out;

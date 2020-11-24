@@ -124,6 +124,7 @@ body {
 }
 
 .social__link {
+  margin-right: 10px;
   padding: 5px;
   text-decoration: none;
 }
@@ -135,7 +136,6 @@ body {
 .social__icon {
   width: 35px;
   height: 35px;
-  margin-right: 10px;
   fill: #e7e7e7;
   -webkit-transition: fill 200ms ease-in-out;
   transition: fill 200ms ease-in-out;
