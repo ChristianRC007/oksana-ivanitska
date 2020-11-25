@@ -136,7 +136,7 @@ body {
 .social__icon {
   width: 35px;
   height: 35px;
-  fill: #e7e7e7;
+  fill: #fdfdfd;
   -webkit-transition: fill 200ms ease-in-out;
   transition: fill 200ms ease-in-out;
 }
