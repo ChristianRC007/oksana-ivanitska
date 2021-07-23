@@ -1,5 +1,6 @@
 .header {
   &__wrapper {
+    position: relative;
     display: flex;
     align-items: center;
 
@@ -30,6 +31,7 @@
     line-height: 1;
     letter-spacing: 0.1em;
     color: #005f7a;
+    text-transform: uppercase;
   }
 
   &__position {
@@ -42,5 +44,6 @@
     line-height: 1.25;
     letter-spacing: 0.2em;
     color: #464646;
+    text-transform: uppercase;
   }
 }

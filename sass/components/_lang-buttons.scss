@@ -1,0 +1,19 @@
+.btn-box {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+
+  & .lng-btn {
+    display: block;
+    margin-bottom: 5px;
+
+    font-weight: 700;
+
+    color: rgb(185, 184, 184);
+    cursor: pointer;
+  }
+
+  .active {
+    color: #005f7a;
+  }
+}
