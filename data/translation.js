@@ -9,7 +9,7 @@ export const langData = {
   },
   position: {
     ua: 'Психологиня',
-    ru: 'Психологиня',
+    ru: 'Психолог',
   },
   'about-title': {
     ua: 'Про мене',

@@ -3,3 +3,19 @@ body {
 
   background-color: #fdfdfd;
 }
+
+.desktop-wrapper {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
+.mobile-wrapper {
+  display: block;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}

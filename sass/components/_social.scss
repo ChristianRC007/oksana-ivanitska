@@ -1,11 +1,22 @@
 .social {
   display: flex;
+  justify-content: space-evenly;
+  margin: 40px auto 0;
+
+  @media screen and (min-width: 768px) {
+    justify-content: unset;
+    margin: 0;
+  }
 
   &__link {
     margin-right: 10px;
-    padding: 5px;
+    padding: 10px;
 
     text-decoration: none;
+
+    @media screen and (min-width: 768px) {
+      padding: 5px;
+    }
 
     &:hover .social__icon {
       fill: #fbd59e;
@@ -16,7 +27,11 @@
     width: 35px;
     height: 35px;
 
-    fill: #fdfdfd;
+    fill: #464646;
     transition: fill 200ms ease-in-out;
+
+    @media screen and (min-width: 768px) {
+      fill: #fdfdfd;
+    }
   }
 }

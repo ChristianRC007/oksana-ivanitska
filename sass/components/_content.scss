@@ -47,10 +47,19 @@
   &__link {
     display: block;
     width: fit-content;
+    margin: 40px auto 0;
 
-    color: #fdfdfd;
+    color: #464646;
+    font-size: 23px;
     text-decoration: none;
     transition: color 200ms ease-in-out;
+
+    @media screen and (min-width: 768px) {
+      margin: 0;
+
+      font-size: inherit;
+      color: #fdfdfd;
+    }
 
     &:hover {
       color: #fbd59e;
